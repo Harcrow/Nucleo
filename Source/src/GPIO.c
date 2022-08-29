@@ -14,9 +14,6 @@
 #define PULL_UP 1
 #define PULL_DOWN 2
 
-
-
-
 int setDigitalOutput(PORT, PIN, MODE){
 
 	//RCC enable of APB2ENR register 

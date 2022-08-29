@@ -1,7 +1,3 @@
-#define PLL_M 	16
-#define PLL_N	336
-#define PLL_P 	1 //01: PLLP = 4
-
 
 void clock_config(void){
 	/*************>>>>>>> STEPS FOLLOWED <<<<<<<<************

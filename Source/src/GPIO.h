@@ -1,3 +1,6 @@
-include "global.h"
+#include "global.h"
 
-int pinMode(PORT, PIN, MODE);
+int setDigitalOutput(PORT, PIN, MODE);
+int setOutputState(PORT, PIN, STATE);
+int setDigitalInput(PORT, PIN, MODE);
+int readDigitalInput(PORT, PIN);
